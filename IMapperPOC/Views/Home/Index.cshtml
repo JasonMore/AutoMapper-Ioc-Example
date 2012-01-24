@@ -1,0 +1,26 @@
+﻿@model IMapperPOC.Service.ViewModels.PersonViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<fieldset>
+    <legend>PersonViewModel</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">DateOfBirth</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateOfBirth)
+    </div>
+
+    <div class="display-label">Age</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Age)
+    </div>
+</fieldset>
