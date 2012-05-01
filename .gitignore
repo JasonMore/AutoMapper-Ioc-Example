@@ -1,0 +1,10 @@
+
+_ReSharper*
+*/bin/Debug/*
+*/obj/Debug/*
+*.suo
+*/obj/Release/*
+*.user
+*.vsmdi
+IMapperPOC/bin/*
+Local.testsettings
